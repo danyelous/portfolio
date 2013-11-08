@@ -1,0 +1,274 @@
+@font-face {
+    font-family: 'Amble-Regular';
+    src: url('Amble-Regular.ttf')  format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Motor-Oil-1937-M54';
+    src: url('Motor-Oil-1937-M54.ttf')  format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'HamburgerHeaven';
+    src: url('HamburgerHeaven.ttf')  format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Playball';
+    src: url('Playball.ttf')  format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+html, body{
+	margin: 0px;
+	padding: 0px;
+	height:100%;
+    background: url('../images/bg.png') repeat;
+	font-family: 'Amble-Regular', serif;
+/*    box-shadow: 0px 0px 25px #999999 inset;*/
+	color: #3b3b3b;
+}
+html {
+	overflow: scroll;
+}
+h1 {
+	font-family: 'Motor-Oil-1937-M54', serif;
+
+}
+h2.home {
+	font-family: 'Playball', serif;
+
+}
+
+ul.home{
+	font-family: 'HamburgerHeaven', serif;
+
+}
+
+#full-background-image {
+/*    height: auto; */
+    height: 100%;
+    left: 0;
+    min-height: 535px;
+    min-width: 750px;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: -999;
+}
+
+
+#container {
+    height: auto;
+    margin: 0px auto 0px auto;
+    min-height: 100%;
+    width: 900px;
+}
+#framehome, #frameworks, #framecontact, #frameabout {
+    margin: 0px auto;
+    min-height: 500px;
+    width: 750px;
+    border: solid #3b3b3b 4px;
+	background: rgba(255,255,255,1);
+    box-shadow: 0px 0px 50px #4d4d4d;
+	border-spacing: 0;
+	-webkit-transform-origin: 75px 75px;
+	-moz-transform-origin: 75px 75px; 
+	-ms-transform-origin: 75px 75px;
+	-o-transform-origin: 75px 75px;
+	transform-origin: 75px 75px;
+    position: absolute;
+    top: 10px;
+
+	
+}
+
+#framehome {
+/*
+    z-index: 10;
+    position: absolute;
+    top: 10px;
+	*/
+    z-index: 15;
+}
+#frameworks {
+/*
+    z-index: 10;
+    position: absolute;
+    top: 10px;
+	*/
+	opacity: 0;
+    z-index: 10;
+	
+}
+#framecontact {
+/*
+    z-index: 10;
+    position: absolute;
+    top: 10px;
+	*/
+    z-index: 10;
+	opacity: 0;
+}
+#frameabout {
+/*
+    z-index: 10;
+    position: absolute;
+    top: 10px;
+	*/
+    z-index: 10;
+	opacity: 0;
+}
+
+#menu{
+    min-height: 60px;
+    width: 690px;
+    margin: 0px auto;
+}
+
+#inner-frame {
+    margin: 0px auto 20px auto;
+    min-height: 450px;
+    width: 700px;
+    border-top: dotted #4d4d4d 2px;
+    border-bottom: dotted #4d4d4d 2px;
+	height: 100%;
+}
+
+#footer {
+
+
+}
+
+a.menu-item {
+    display: inline-block;
+    float: left;
+    margin: 0px 30px 0px 30px;
+    text-align: center;
+	cursor: pointer;
+}
+a.menu-item:hover {
+    color: #E84D5F;
+}
+
+a.current {
+    cursor: default;
+	color: #2298AF;
+}
+a.current:hover  {
+    cursor: default;
+	color: #3b3b3b;
+}
+
+.title{
+    font-size: 1.4em;
+}
+
+.sub-title {
+    font-size: 0.8em;
+}
+
+.store {
+    float: left;
+    width: 250px;
+    margin: 10px;
+}
+.responsivee {
+    float: right;
+    margin: 10px;
+}
+
+.arrow {
+    width: 150px;
+    position: absolute;
+    top: 230px;
+    left: 263px;
+}
+
+.envelope {
+    float: left;
+    width: 700px;
+}
+
+.webdesign {
+    position: absolute;
+    top: 80px;
+    right: 50px;
+}
+.itakeyour {
+    position: absolute;
+    top: 150px;
+    left: 25px;
+}
+
+#title {
+    background: url('../images/ribbon.png') no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+    clear: both;
+    height: 85px;
+    margin: -20px auto 40px auto;
+    width: 550px;
+}
+
+h1.title {
+    color: #eae2cf;
+    font-size: 2.4em;
+    text-align: center;
+    line-height: 70px;
+}
+
+ul.home {
+    float: left;
+    font-size: 2em;
+    margin: 0px 0px 10px 15px;
+}
+
+h2.home {
+    float: right;
+    font-size: 3em;
+    margin: 0px 40px 0px 0px;
+}
+
+#contactbox {
+    position: absolute;
+    top: 330px;
+    right: 75px;
+}
+h2.contact-name, h2.contact-eMail {
+    font-size: 2em;
+    text-align: right;
+}
+
+.airmail {
+    position: absolute;
+    top: 75px;
+    right: 0px;
+    width: 150px;
+}
+
+#googleplus, #social {
+    float: right;
+}
+
+a.right {
+    text-decoration: none;
+    font-size: 2em;
+    color: #3b3b3b;
+    float: right;
+    margin: 40px 0px 0px 10px;
+}
+.right {
+    float: right;
+}
+.contact-now {
+    position: absolute;
+    top: 500px;
+    right: 20px;
+	cursor: pointer;
+}

@@ -129,7 +129,7 @@ ul.home {
 #menu {
     margin: 5px auto 0;
     min-height: 60px;
-    width: 690px;
+    width: 750px;
 }
 #inner-frame {
     border-bottom: 4px dotted #4D4D4D;
@@ -161,7 +161,7 @@ a.menu-item {
     cursor: pointer;
     display: inline-block;
     float: left;
-    margin: 0 30px;
+    margin: 0 28px;
     text-align: center;
 }
 a.menu-item:hover {
@@ -355,6 +355,20 @@ img.showcase {
 }
 img.specialguest {
     margin: 0px 0px 0px -15px;
+}
+
+.overstorediv {
+    position: absolute;
+    top: 160px;
+    left: 160px;
+	display: none;
+}
+
+.overresponsivediv {
+    position: absolute;
+    top: 160px;
+    left: 210px;
+	display: none;
 }
 
 img.language {

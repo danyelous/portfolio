@@ -31,15 +31,16 @@ var portfolio = {
 		
 
 			setTimeout(function() {
-				$(location).attr('href', 'http://www.danielpontoriero.com/es/');
+				$(location).attr('href', 'http://www.danielpontoriero.com');
 
 			}, 1100);
 			
 		return false;
 					
 		});
-		
-		
+	
+	
+	
 		$('.home').click(function() {
 		
 		if($('#framehome').css('opacity') == 0){
@@ -196,10 +197,6 @@ function animateDivOut(divname){
 	}, 250 );
 
 } 
-
-
-
-
 
 
 

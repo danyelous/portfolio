@@ -363,3 +363,7 @@ img.language {
     top: 0px;
     left: 740px;
 }
+
+.bold {
+	font-weight: bold;
+}

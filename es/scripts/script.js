@@ -47,7 +47,7 @@ var portfolio = {
 		
 			currentDiv = giveMeCurrentDiv();
 						 
-			animateDivOut(currentDiv, $('#framehome'));
+			animateDivOut(currentDiv);
 			
 			$('#framehome').css( 'opacity', '1' );
 			$('#framehome').css( 'z-index', '5' );
@@ -68,7 +68,7 @@ var portfolio = {
 		
 			currentDiv = giveMeCurrentDiv();
 			
-			animateDivOut(currentDiv, $('#frameworks'));
+			animateDivOut(currentDiv);
 
 			$('#frameworks').css( 'opacity', '1' ); 
 			$('#frameworks').css( 'z-index', '5' );
@@ -89,7 +89,7 @@ var portfolio = {
 		
 			currentDiv = giveMeCurrentDiv();
 			
-			animateDivOut(currentDiv, $('#framecontact'));
+			animateDivOut(currentDiv);
 
 			$('#framecontact').css( 'opacity', '1' );	 
 			$('#framecontact').css( 'z-index', '5' );
@@ -110,7 +110,7 @@ var portfolio = {
 		
 			currentDiv = giveMeCurrentDiv();
 			
-			animateDivOut(currentDiv, $('#frameabout'));
+			animateDivOut(currentDiv);
 
 			$('#frameabout').css( 'opacity', '1' );
 			$('#frameabout').css( 'z-index', '5' );

@@ -198,6 +198,7 @@ a.current:hover {
 .envelope {
     float: left;
     width: 700px;
+    margin: 0px 0px 10px 0px;
 }
 .webdesign {
     position: absolute;
@@ -376,4 +377,8 @@ img.language {
     z-index: 999999;
     top: 0px;
     left: 740px;
+}
+
+#social-contact a {
+    margin: 0px 0px 0px 50px;
 }

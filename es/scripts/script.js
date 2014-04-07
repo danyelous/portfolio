@@ -31,7 +31,7 @@ var portfolio = {
 		
 
 			setTimeout(function() {
-				$(location).attr('href', 'http://danyelous.github.io/portfolio/');
+				$(location).attr('href', 'http://www.danielpontoriero.com');
 
 			}, 1100);
 			
